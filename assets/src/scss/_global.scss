@@ -1,8 +1,14 @@
 /**
  * Global app/site styles
  */
+html, body {
+	min-height: 100%;
+}
+
 body {
 	background-color: $color-bg;
+	background-image: url('#{$img-path}/bg.jpg');
+	background-size: cover;
 }
 
 /**

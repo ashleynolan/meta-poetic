@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>Meta Poetic{{#if docs}} – Documentation{{/if}}</title>
+		<title>Meta Poetic – Documentation</title>
 		<meta name="description" content="Portfolio for Nicholas Oliver">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
 
@@ -16,18 +16,18 @@
 		<!--[if gt IE 8]><!-->
 			<link rel="stylesheet" href="/assets/css/meta-poetic.css">
 		<!--<![endif]-->
-		{{#if docs}}<link rel="stylesheet" href="/assets/css/styleguide.css">{{/if}}
+		<link rel="stylesheet" href="/assets/css/styleguide.css">
 
 		<!-- For mobile icons & social metatags etc, see http://trykickoff.github.io/learn/html.html#socialmeta
 		-->
 		<!-- Grunticon SVG detection script. http://github.com/filamentgroup/
 				 Remove if not using Grunticon. -->
-<!-- 		<script>
+		<!-- <script>
 			(function(e){function t(t,n,r,o){"use strict";function a(){for(var e,t=0;m.length>t;t++)m[t].href&&m[t].href.indexOf(i.href)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),c=n||e.document.getElementsByTagName("script")[0],m=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",o&&(i.onload=o),c.parentNode.insertBefore(i,c),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,c=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),m=new i;m.onerror=function(){n.method="png",n.href=r[2],t(r[2])},m.onload=function(){var e=1===m.width&&1===m.height,a=r[e&&c?0:e?1:2];n.method=e&&c?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},m.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);
 			grunticon(["/assets/dist/img/icons/icons.data.svg.css", "/assets/dist/img/icons/icons.data.png.css", "/assets/dist/img/icons/icons.fallback.css"]);
 		</script>
-		<noscript><link href="/assets/dist/img/icons/icons.fallback.css" rel="stylesheet"></noscript>
- -->		<!-- /End Grunticon detection & injection script -->
+		<noscript><link href="/assets/dist/img/icons/icons.fallback.css" rel="stylesheet"></noscript> -->
+		<!-- /End Grunticon detection & injection script -->
 
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,700,600' rel='stylesheet' type='text/css'>
 
@@ -37,3 +37,74 @@
 		<div class="skipToContent">
 			<a href="#mainContent" class="btn btn--primary">Skip to main content</a>
 		</div>
+
+
+	 <div class="l-container">
+		<!-- header partial -->
+		<!--  ==============  -->
+<!--  === Masthead ===  -->
+<!--  ==============  -->
+<header class="masthead bio" role="banner">
+	<div class="bio-info media">
+		<div class="bio-img media-img">
+			<img src="http://placekitten.com/110/110">
+		</div>
+		<div class="media-body">
+			<h1 class="bio-title">Nicholas Oliver</h1>
+			<p>Global Creative Technical Director that loves tech and travel.Currently consulting for @HART_tweets, @TeamDetroit and @WPP.</p>
+
+			<ul class="unstyled l-list--floated socialLinks">
+				<li class="socialLinks-item socialLinks-item--twitter"><a href="https://twitter.com/nicoliver86" class="socialLinks-link">Twitter</a></li>
+				<li class="socialLinks-item socialLinks-item--linkedin"><a href="https://www.linkedin.com/in/nicoliver" class="socialLinks-link">LinkedIn</a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+
+
+
+
+
+
+		<!--  ====================  -->
+		<!--  === Main content ===  -->
+		<!--  ====================  -->
+		<div class="sg-page" role="main">
+
+			
+
+<p>This documentation will be expanded upon and updated as part of the next minor release.</p>
+<p>For now, take a look at <a href="http://trykickoff.github.io/statix/">the online documentation</a> while we work on providing some more in–depth guides.</p>
+
+
+
+		</div>
+
+		
+		<!--  ==============  -->
+		<!--  === Footer ===  -->
+		<!--  ==============  -->
+		<footer class="footer" role="contentinfo">
+
+		</footer>
+	</div>
+
+
+		<!-- JavaScript at the bottom for fast page loading -->
+		<script src="/assets/js/script.min.js"></script>
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-XXXXX-XX', 'http://yourdomain.com', {
+				//'cookieDomain': 'none' // Use if debugging on localhost
+			});
+			ga('send', 'pageview');
+		</script>
+
+	</body>
+</html>
+

@@ -32,7 +32,7 @@
 	.media-img,
 	.media-body {
 		display: table-cell;
-		vertical-align: middle;
+		vertical-align: top;
 
 		.media--top & {
 			vertical-align: top;
@@ -52,7 +52,7 @@
 	}
 
 	.media-img {
-		padding-right: 10px;
+		padding-right: 50px;
 
 		> img {
 			display: block;

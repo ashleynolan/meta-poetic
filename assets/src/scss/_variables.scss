@@ -15,7 +15,7 @@
  * Set this in pixels (but do not add px),
  * the font-size mixin will convert to REMS
  */
-$font-size-base                : 20;
+$font-size-base                : 18;
 $font-size-base-px             : $font-size-base * 1px;
 $font-size-base-narrow         : $font-size-base - 2;
 $font-size-base-narrow-px      : $font-size-base-narrow * 1px;
@@ -38,18 +38,18 @@ $type-jumbo                    : modular-scale($font-size-base, 4, $type-scale);
 
 
 // Useful to set here when bold webfonts come as 400 font-weight.
-$font-weight-bold             : bold;
+$font-weight-bold             : 700;
 
 /* Font stacks */
-$font-family-sans             : "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans             : "Open Sans", Helvetica, Arial, sans-serif;
 $font-family-serif            : Georgia, "Times New Roman", Times, serif;
 $font-family-mono             : Menlo, Monaco, "Courier New", monospace;
 
 $font-family-base             : $font-family-sans;
 $font-family-alt              : $font-family-serif;
 
-$font-family-headings         : $font-family-serif; // using inherit will use $font-family-base for all headings
-$font-weight-headings         : bold;    // instead of browser default, bold
+$font-family-headings         : $font-family-sans; // using inherit will use $font-family-base for all headings
+$font-weight-headings         : 600;    // instead of browser default, bold
 $line-height-headings         : 1.1;
 
 
@@ -100,6 +100,7 @@ $using-push-pull-columns      : false !default; // Allow columns to be pushed & 
 $using-offsetcolumns          : false !default; // Allow columns to be offset
 $using-splits-and-shunts      : false !default; // Use Splits & Shunts for responsive web design
 
+$vertical-rhythm              : 20px;
 
 
 /**

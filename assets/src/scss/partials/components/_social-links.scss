@@ -1,0 +1,21 @@
+
+.socialLinks {
+
+}
+	.socialLinks-link {
+		display: block;
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	.socialLinks-item--twitter {
+		background-color: $blue;
+	}
+	.socialLinks-item--linkedin {
+		background-color: black;
+	}

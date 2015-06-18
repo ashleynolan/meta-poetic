@@ -1,0 +1,32 @@
+
+.bio {
+	background-color: #fff;
+	position: relative;
+	margin-top: 40px;
+	border-radius: 5px 5px 0 0;
+
+	padding: 20px;
+
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 20px;
+		width: 100%;
+		background-color: $gray;
+
+		border-radius: 5px 5px 0 0;
+	}
+}
+
+	.bio-info {
+		margin-top: $vertical-rhythm * 2;
+	}
+		.bio-info img {
+			border-radius: 50%;
+		}
+		.bio-title {
+			@include font-size(24);
+			margin-bottom: $vertical-rhythm / 2;
+		}

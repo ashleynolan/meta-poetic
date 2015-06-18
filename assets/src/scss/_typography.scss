@@ -89,10 +89,6 @@ h1, h2, h3, h4, h5, h6 {
 h1, .h1, .alpha {
 	@include font-size($type-largest);
 	margin-bottom: $baseline * 2;
-
-		&:first-child {
-			margin-top: $baseline * 2;
-		}
 }
 
 h2, .h2, .beta {
@@ -112,13 +108,6 @@ h6, .h6, .zeta {
 	@include font-size($type-small);
 	margin-bottom: 0;
 }
-
-
-// h5, .h5, .epsilon {
-// }
-
-// h6, .h6, .zeta {
-// }
 
 // Only give these headings a margin-top if they are after other elements
 * + h1, * + .h1, * + .alpha,
