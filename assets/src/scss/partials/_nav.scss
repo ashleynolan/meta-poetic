@@ -1,0 +1,15 @@
+.nav-header {
+	float: right;
+}
+
+	.nav-header-list-item {
+		display: inline-block;
+		text-transform: uppercase;
+		@include font-size(12);
+		font-weight: 700;
+		margin-left: 10px;
+
+		&.is-active a {
+			color: #000;
+		}
+	}

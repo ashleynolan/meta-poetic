@@ -1,10 +1,14 @@
 
-.bio {
+
+
+.masthead {
 	background-color: #fff;
 	position: relative;
 	margin-top: 40px;
 	border-radius: 5px 5px 0 0;
 
+	max-width: 930px;
+	margin-right: auto;
 	padding: 20px;
 
 	&:before {
@@ -22,6 +26,13 @@
 
 	.bio-info {
 		margin-top: $vertical-rhythm * 2;
+
+		p {
+			color: $gray;
+		}
+		a {
+			color: $grayDark;
+		}
 	}
 		.bio-info img {
 			border-radius: 50%;
@@ -30,3 +41,4 @@
 			@include font-size(24);
 			margin-bottom: $vertical-rhythm / 2;
 		}
+

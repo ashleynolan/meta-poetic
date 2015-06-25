@@ -333,18 +333,18 @@ small {
  * Links
  */
 a, a:link {
-  color: #16c98d;
+  color: #3eb5f3;
   text-decoration: none; }
 
 a:visited {
-  color: #16c98d;
+  color: #3eb5f3;
   text-decoration: none; }
 
 a:hover, a:focus {
-  color: #0c6d4d; }
+  color: #0c82bf; }
 
 a:active {
-  color: #0c6d4d; }
+  color: #0c82bf; }
 
 /**
  * Lists
@@ -477,12 +477,12 @@ samp {
 
 ::-moz-selection {
   color: #fff;
-  background: #16c98d;
+  background: #3eb5f3;
   text-shadow: none; }
 
 ::selection {
   color: #fff;
-  background: #16c98d;
+  background: #3eb5f3;
   text-shadow: none; }
 
 /**
@@ -563,7 +563,7 @@ samp {
   overflow: visible;
   /* [8] */
   text-align: center;
-  background-color: #d8d8d8;
+  background-color: #929a97;
   border-radius: 5px;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -580,7 +580,7 @@ samp {
   .btn:active,
   .tabs a:active,
   .btn:focus, .tabs a:focus {
-    background-color: #bfbfbf; }
+    background-color: #78817e; }
   .btn,
   .tabs a,
   .btn:hover,
@@ -603,7 +603,7 @@ samp {
     opacity: .65; }
 
 .btn--primary {
-  background-color: #16c98d; }
+  background-color: #3eb5f3; }
   .btn--primary,
   .btn--primary:link,
   .btn--primary:visited {
@@ -611,7 +611,7 @@ samp {
   .btn--primary:hover,
   .btn--primary:active,
   .btn--primary:focus {
-    background-color: #119b6d; }
+    background-color: #0fa2ef; }
 
 .btn--block {
   display: block;
@@ -1067,20 +1067,20 @@ input[type="submit"] {
   color: #16c98d; }
 
 .has-info {
-  color: #288ad6; }
+  color: #3eb5f3; }
 
 .form-controlGroup.has-info .form-label {
-  color: #288ad6; }
+  color: #3eb5f3; }
 
 .form-controlGroup.has-info .form-input {
-  color: #288ad6;
-  border-color: #288ad6; }
+  color: #3eb5f3;
+  border-color: #3eb5f3; }
   .form-controlGroup.has-info .form-input:focus {
-    border-color: #206eab; }
+    border-color: #0fa2ef; }
 
 .form-controlGroup.has-info .form-controlGroup-message {
   display: block;
-  color: #288ad6; }
+  color: #3eb5f3; }
 
 /**
  * Placeholder text
@@ -1189,13 +1189,13 @@ input[type="submit"] {
     z-index: -1;
     /* Put the input behind the label so it doesn't overlay text */ }
   .control--custom input:focus ~ .control-indicator {
-    box-shadow: 0 0 0 0.075em #fff, 0 0 0 0.2em #e5e5e5; }
+    box-shadow: 0 0 0 0.075em #fff, 0 0 0 0.2em #9fa6a4; }
   .control--custom input:checked ~ .control-indicator {
     color: #fff;
-    background-color: #e5e5e5; }
+    background-color: #9fa6a4; }
   .control--custom input:active ~ .control-indicator {
     color: #fff;
-    background-color: white; }
+    background-color: #c7cbca; }
 
 /* Checkbox modifiers */
 .control--checkbox .control-indicator {
@@ -1734,7 +1734,7 @@ pre {
   overflow: hidden; }
 
 .socialLinks-item--twitter {
-  background-color: #288ad6; }
+  background-color: #3eb5f3; }
 
 .socialLinks-item--linkedin {
   background-color: black; }
@@ -1769,24 +1769,30 @@ body {
   .lt-ie9 .l-container {
     min-width: 1000px; }
 
-.bio {
+.masthead {
   background-color: #fff;
   position: relative;
   margin-top: 40px;
   border-radius: 5px 5px 0 0;
+  max-width: 930px;
+  margin-right: auto;
   padding: 20px; }
-  .bio:before {
+  .masthead:before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     height: 20px;
     width: 100%;
-    background-color: #d8d8d8;
+    background-color: #929a97;
     border-radius: 5px 5px 0 0; }
 
 .bio-info {
   margin-top: 40px; }
+  .bio-info p {
+    color: #929a97; }
+  .bio-info a {
+    color: #363636; }
 
 .bio-info img {
   border-radius: 50%; }
@@ -1795,6 +1801,19 @@ body {
   font-size: 24px;
   font-size: 1.3333333333rem;
   margin-bottom: 10px; }
+
+.nav-header {
+  float: right; }
+
+.nav-header-list-item {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-size: 0.6666666667rem;
+  font-weight: 700;
+  margin-left: 10px; }
+  .nav-header-list-item.is-active a {
+    color: #000; }
 
 /*
    Icons
@@ -1897,7 +1916,7 @@ body {
  * Responsive Utilities
  */
 * {
-  -webkit-tap-highlight-color: #16c98d !important; }
+  -webkit-tap-highlight-color: #3eb5f3 !important; }
 
 /* A hack for HTML5 contenteditable attribute on mobile */
 textarea[contenteditable] {

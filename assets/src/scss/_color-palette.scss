@@ -2,17 +2,20 @@
  * Color palette
  */
 
+//color palette
+$blue                         : #3eb5f3;
+$gray                         : #929a97;
+$grayDark                     : #363636;
+
 // Generic colors
-$blue                         : #288ad6;
 $green                        : #16c98d;
 $red                          : #fa5e5b;
 $yellow                       : #feef6d;
 $orange                       : #e67e22;
-$gray                         : #d8d8d8;
 
 // Color Scheme
-$color-primary                : $green;
-$color-secondary              : $yellow;
+$color-primary                : $blue;
+$color-secondary              : #000;
 $color-highlight              : $red;
 
 // Common colors
